@@ -1,2 +1,2 @@
 # mindspace
-Studying guide using spaced repetition technique.
+Studying tool using spaced repetition technique.
