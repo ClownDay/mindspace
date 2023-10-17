@@ -4,16 +4,32 @@
   --periwinkle: #ccdaff;
   --mauve: #e4aef2;
   --mindaro: #eefcac;
+  --licorice: #200010;
 }
 
 body {
-
+  color: var(--licorice);
 }
 
 .navBar {
   background: var(--lavendar);
+  height: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .navElement {
   float: left;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+button {
+  background: var(--mauve);
+  border-width: 0px;
+  padding: 8px;
+  border-radius: 8px;
+  color: var(--licorice);
+  font-size: 16px;
 }
