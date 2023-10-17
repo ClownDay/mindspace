@@ -1,1 +1,15 @@
+:root{
+  --lavendar: #ba82ed;
+  --lightblue: #bfe8f5;
+  --periwinkle: #ccdaff;
+  --mauve: #e4aef2;
+  --mindaro: #eefcac;
+}
 
+body {
+
+}
+
+.navBar {
+  background: var(--lavendar);
+}
