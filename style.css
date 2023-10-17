@@ -13,3 +13,7 @@ body {
 .navBar {
   background: var(--lavendar);
 }
+
+.navElement {
+  float: left;
+}
