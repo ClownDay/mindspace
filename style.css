@@ -7,6 +7,11 @@
   --licorice: #200010;
 }
 
+@font-face {
+  font-family: alwaysHearts;
+  src: url(fonts/Always In My Heart.ttf);
+}
+
 body {
   color: var(--licorice);
 }
