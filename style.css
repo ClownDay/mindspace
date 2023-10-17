@@ -8,8 +8,8 @@
 }
 
 @font-face {
-  font-family: alwaysHearts;
-  src: url(fonts/Always In My Heart.ttf);
+  font-family: "alwaysHearts";
+  src: url(fonts/always-in-my-heart.ttf);
 }
 
 body {
@@ -28,6 +28,7 @@ body {
   float: left;
   vertical-align: middle;
   margin: 10px;
+  font-family: "alwaysHearts";
 }
 
 button {
