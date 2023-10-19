@@ -1,5 +1,6 @@
 :root{
   --lavendar: #ba82ed;
+  --dark-lavendar: #701099;
   --lightblue: #bfe8f5;
   --periwinkle: #ccdaff;
   --mauve: #e4aef2;
@@ -14,6 +15,7 @@
 
 body {
   color: var(--licorice);
+  margin: 0px;
 }
 
 h1 {
@@ -31,17 +33,23 @@ button {
 
 .navBar {
   background: var(--lavendar);
-  height: 60px;
-  position: absolute;
+  height: 50px;
   display: flex;
   align-items: center;
-  left: 0px;
-  right: 0px;
-  top: 0px;
+  padding: 5px;
 }
 
 .navElement {
   float: left;
   vertical-align: middle;
   margin: 10px;
+}
+
+.tab {
+  margin: 0px 10px 0px 10px;
+}
+
+#headerBorder{
+  height: 4px;
+  background-color: var(--dark-lavendar);
 }
