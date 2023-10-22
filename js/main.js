@@ -20,3 +20,22 @@ function showTab(name) {
     if (name == tabs[i].id) { tabs[i].style.display = "flex";}
   }
 }
+
+class Card {
+  frontContent = "";
+  backContent = "";
+  constructor(frontContent, backContent) {
+    this.frontContent = frontContent;
+    this.backContent = backContent;
+  }
+}
+
+class List {
+  cardList = [];
+  addCard(card) {
+    cardList.push(card);
+  }
+  get cards() {
+    return this.cardList;
+  }
+}
