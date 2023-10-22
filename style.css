@@ -4,8 +4,10 @@
   --lightblue: #bfe8f5;
   --periwinkle: #ccdaff;
   --mauve: #e4aef2;
+  --lightpink: #ffe5ff;
   --mindaro: #eefcac;
   --licorice: #200010;
+  --whispers: #f7f7ff;
 }
 
 @font-face {
@@ -16,6 +18,7 @@
 body {
   color: var(--licorice);
   margin: 0px;
+  background: var(--whispers);
 }
 
 h1 {
