@@ -1,4 +1,5 @@
 import { createEventListeners } from "./eventListeners.js";
+import { base64ToBytes, bytesToBase64 } from "./utility.js";
 
 createEventListeners();
 
